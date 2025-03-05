@@ -56,6 +56,7 @@ const App = () => {
   return (
     <div>
       <h1>Lista de Tarefas</h1>
+      <hr />
       <TaskInput onAddTask={addTask} />
       <TaskList
         tasks={tasks}
